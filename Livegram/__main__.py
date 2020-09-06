@@ -56,9 +56,9 @@ for module_name in ALL_MODULES:
 def start(update, context):
 	user = update.message.from_user
 	if update.effective_message.chat.type == "private":
-	    text = "Official Bot for @BruteForcers Send it feedbacks or any config requests here to be done.ԅ( ͒ ۝ ͒ )ᕤ."
+	    text = "Official Bot for @theindiancasino Send it feedbacks or any config requests here to be done.ԅ( ͒ ۝ ͒ )ᕤ."
 	else:
-            text = "What bsdk?"
+            text = "What @theindiancasino ?"
 	update.effective_message.reply_text(text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
 def main():
